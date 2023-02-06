@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="model">
+      <button class="close">X</button>
+      <h1 class="model-msg">try again</h1>
+      <button class="btn-try-again">Play again</button>
+    </div>
+    <header class="header">
+      <nav class="nav">
+        <h1>r-p-s</h1>
+
+        <h2 id="date" class="date">2023</h2>
+        <a class="github" href="https://www.github.com/Nurcodes">
+          <img src="https://img.icons8.com/sf-black/64/FFFFFF/github.png" />
+        </a>
+      </nav>
+
+      <div class="game">
+        <h2 class="message">Lets play</h2>
+
+        <div class="game-squares">
+          <div class="player-square">
+            <img
+              src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/null/external-player-american-football-flaticons-lineal-color-flat-icons-2.png"
+            />
+
+            <div class="info player-info">
+              <p class="score player-score">?</p>
+              <p class="mv player-move">0</p>
+            </div>
+          </div>
+          <button class="reset">RESET</button>
+          <div class="player-square">
+            <img
+              src="https://img.icons8.com/stickers/100/null/artificial-intelligence.png"
+            />
+
+            <div class="info ai-info">
+              <p class="score ai-score">?</p>
+              <p class="mv ai-move">0</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="button-container">
+          <div class="btn rock" id="rock"><h1>Rock</h1></div>
+          <div class="btn paper" id="paper">
+            <h1>paper</h1>
+          </div>
+          <div class="btn scissors" id="scissors">
+            <h1>scissors</h1>
+          </div>
+        </div>
+      </div>
+    </header>
+    <script src="script.js"></script>
+  </body>
+</html>
